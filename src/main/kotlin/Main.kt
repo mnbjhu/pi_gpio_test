@@ -10,6 +10,7 @@ fun main() {
             Thread.sleep(1000)
             gpio.write(16, false)
             Thread.sleep(1000)
+            println("Hello,World!")
         }
     } catch (e: InterruptedException){
         throw e
